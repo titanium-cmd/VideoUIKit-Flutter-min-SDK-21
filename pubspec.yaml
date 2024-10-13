@@ -10,7 +10,11 @@ environment:
   flutter: ">=2.2.0"
 
 dependencies:
-  agora_rtc_engine: ^6.3.0
+  agora_rtc_engine:
+    git:
+      url: https://github.com/rehan-505/Agora-Flutter-SDK-min-Sdk-21.git
+      ref: main # branch name
+  # agora_rtc_engine: ^6.3.0
   agora_rtm: ^1.5.5
   flutter:
     sdk: flutter
