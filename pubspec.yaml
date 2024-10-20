@@ -12,7 +12,7 @@ environment:
 dependencies:
   agora_rtc_engine:
     git:
-      url: https://github.com/rehan-505/Agora-Flutter-SDK-min-Sdk-21.git
+      url: https://github.com/AgoraIO-Extensions/Agora-Flutter-SDK.git
       ref: main # branch name
   # agora_rtc_engine: ^6.3.0
   agora_rtm: ^1.5.5
