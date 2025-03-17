@@ -10,12 +10,15 @@ environment:
   flutter: ">=2.2.0"
 
 dependencies:
-#  agora_rtc_engine:
-#    git:
-#      url: https://github.com/AgoraIO-Extensions/Agora-Flutter-SDK.git
-#      ref: main # branch name
+  #  agora_rtc_engine:
+  #    git:
+  #      url: https://github.com/AgoraIO-Extensions/Agora-Flutter-SDK.git
+  #      ref: main # branch name
   agora_rtc_engine: ^6.3.0
-  agora_rtm: ^1.5.5
+  agora_rtm:
+    git:
+      url: https://github.com/titanium-cmd/Agora-Flutter-RTM-SDK.git
+      ref: 1.5.9-NewUI
   flutter:
     sdk: flutter
   http: ">=0.13.1 <2.0.0"
