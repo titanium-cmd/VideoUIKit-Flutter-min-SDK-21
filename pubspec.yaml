@@ -17,8 +17,8 @@ dependencies:
   agora_rtc_engine: ^6.3.0
   agora_rtm:
     git:
-      url: https://github.com/titanium-cmd/Agora-Flutter-RTM-SDK.git
-      ref: 1.5.9-NewUI
+      url: https://github.com/locandpad/Agora-Flutter-RTM-SDK
+      ref: chore/support-flutter-3.29
   flutter:
     sdk: flutter
   http: ">=0.13.1 <2.0.0"
